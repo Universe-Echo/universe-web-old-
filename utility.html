@@ -1,7 +1,89 @@
 <!DOCTYPE html>
-
 <html>
-    <body>
-        hello
-    </body>
+    <head>     
+       <link rel="stylesheet" href="utility.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="docs1.js"></script>
+    </head>
+    
+    <title>Docs-utility</title>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+
+       
+        <a href="#Support Server"
+            onclick="window.location.href = `https://discord.gg/YVHMZesXsU`">
+            Support Server
+        </a>
+        
+    </a>
+    <a href="#Invite"
+    onclick="window.location.href = `https://discord.com/api/oauth2/authorize?client_id=934034791702081546&permissions=1238514396278&scope=bot%20applications.commands`"
+    >Invite
+
+    </a>
+        <a href="#home" class="active"
+        onclick="window.location.href='index.html'">
+            Home</a>
+
+          
+    
+        </div>
+      <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+
+<ul id="myMenu">
+  <li><a href="#"
+    onclick="window.location.href='utility.html'">
+    Utility</a></li>
+  <li><a href="#">Fun</a></li>
+  <li><a href="#">Gif/Images</a></li>
+  <li><a href="#">Music</a></li>
+  <li><a href="#">Moderation</a></li>
+ 
+ <style>
+
+     a {
+        font-size: 50px
+     }
+ </style>
+  <script>
+    function myFunction() {
+      // Declare variables
+      var input, filter, ul, li, a, i;
+      input = document.getElementById("mySearch");
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("myMenu");
+      li = ul.getElementsByTagName("li");
+    
+      // Loop through all list items, and hide those who don't match the search query
+      for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+          li[i].style.display = "";
+        } else {
+          li[i].style.display = "none";
+        }
+      }
+    }
+    </script>
+</ul>
+
+            
+
+<pre style="height:900px;width:1700px;border:1px solid #ccc;font:25px Georgia, Garamond, Serif;overflow:auto;color: azure;position: fixed;
+top: 15%;
+left: 20%;
+">
+    As you can see, once there's enough text in this box, the box will grow scroll bars... 
+    that's why we call it a scroll box! You could also place an image into the scroll box.
+</pre>
+</body>
 </html>
+
