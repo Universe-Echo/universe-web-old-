@@ -10,7 +10,7 @@
    
     position: static;
     float: right;
-    color: #000000;
+    color: #ffffff;
     text-align: match-parent;
     padding: 20px 50px;
     text-decoration: none;
@@ -95,7 +95,7 @@
   }
 
   body {
-    background-color: rgb(255, 255, 255);
+    background-color: #2d2e30;
     /*background-image: url('./wp2572361-star-wallpaper.jpg');*/
     
   }
@@ -111,13 +111,13 @@
   }
 
   table, th, td {
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
   border-collapse: collapse;
 padding: 20px;
     height:auto;
     width:auto;
     overflow:auto;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     position: relative;
     font-size: 25px;
     text-align: center;
