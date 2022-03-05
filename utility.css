@@ -10,7 +10,7 @@
    
     position: static;
     float: right;
-    color: #ffffff;
+    color: #000000;
     text-align: match-parent;
     padding: 20px 50px;
     text-decoration: none;
@@ -95,8 +95,8 @@
   }
 
   body {
-    background-color: rgb(61, 61, 61);
-    background-image: url('./wp2572361-star-wallpaper.jpg');
+    background-color: rgb(255, 255, 255);
+    /*background-image: url('./wp2572361-star-wallpaper.jpg');*/
     
   }
   
@@ -108,4 +108,18 @@
     margin: 0;
     font-size: 20px;
     color: azure;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+  border-collapse: collapse;
+padding: 20px;
+    height:auto;
+    width:auto;
+    overflow:auto;
+    color: rgb(0, 0, 0);
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+
   }

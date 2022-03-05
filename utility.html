@@ -9,7 +9,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <script src="docs1.js"></script>
     </head>
-    
+
     <title>Docs-utility</title>
 <body>
     <div class="topnav" id="myTopnav">
@@ -34,55 +34,74 @@
             Home</a>
 
           
-    
-        </div>
-      <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
 
-<ul id="myMenu">
-  <li><a href="#"
-    onclick="window.location.href='utility.html'">
-    Utility</a></li>
-  <li><a href="#">Fun</a></li>
-  <li><a href="#">Gif/Images</a></li>
-  <li><a href="#">Music</a></li>
-  <li><a href="#">Moderation</a></li>
- 
- <style>
-
-     a {
-        font-size: 50px
-     }
- </style>
-  <script>
-    function myFunction() {
-      // Declare variables
-      var input, filter, ul, li, a, i;
-      input = document.getElementById("mySearch");
-      filter = input.value.toUpperCase();
-      ul = document.getElementById("myMenu");
-      li = ul.getElementsByTagName("li");
-    
-      // Loop through all list items, and hide those who don't match the search query
-      for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("a")[0];
-        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-          li[i].style.display = "";
-        } else {
-          li[i].style.display = "none";
-        }
-      }
-    }
-    </script>
-</ul>
 
             
 
-<pre style="height:900px;width:1700px;border:1px solid #ccc;font:40px Georgia, Garamond, Serif;overflow:auto;color: azure;position: fixed;
-top: 15%;
-left: 20%;
-">
-    Samajh ni aara kya daalu baad me daaldunga
-</pre>
+
+
+<table class="center">
+  <tr>
+    <th>Command Name</th>
+    <th>Usage</th>
+    <th>Category</th>
+    <th>Description</th>
+    <th>Aliases</th>
+  </tr>
+  <tr>
+    <td>help</td>
+    <td>>help</td>
+    <td>Utility</td>
+    <td>Opens the help embed</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Botinfo</td>
+    <td>>botinfo</td>
+    <td>Utility</td>
+    <td>Shows the info and current stats of the bot</td>
+    <td>>bi</td>
+  </tr>
+  <tr>
+    <td>Channel Info</td>
+    <td>>cinfo, >cinfo (channel)</td>
+    <td>Utility</td>
+    <td>shows the info of the mentioned channel</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Ping</td>
+    <td>>ping</td>
+    <td>Utility</td>
+    <td>Shows the latency of the bot</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>User Info</td>
+    <td>>whois, >whois (user)</td>
+    <td>Utility</td>
+    <td>Shows the info of the mentioned user</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>help</td>
+    <td>>help</td>
+    <td>Utility</td>
+    <td>Opens the help embed</td>
+    <td>-</td>
+  </tr>
+  <style>
+    .center {
+      margin-top: 200px;
+margin-left: auto;
+margin-right: auto;
+height:auto;
+    width:auto;
+    text-align: center;
+}
+  </style>
+</table>
 </body>
+
 </html>
 
