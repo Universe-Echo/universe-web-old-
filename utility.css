@@ -95,7 +95,7 @@
   }
 
   body {
-    background-color: #2d2e30;
+    background: linear-gradient(to right, #0099ff 0%, #33cccc 100%);
     /*background-image: url('./wp2572361-star-wallpaper.jpg');*/
     
   }
