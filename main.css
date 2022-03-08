@@ -1,9 +1,10 @@
 body {
+ 
     text-rendering: optimizeLegibility;
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-weight: 400;
     line-height: 1.15;
-    background: linear-gradient(to top right, rgba(2,0,36,1) 24%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(to top right, rgba(2,0,36,1) 24%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%) fixed;
     Height: 1100px;
    /* background-image: url('./wp2572361-star-wallpaper.jpg'); */
     max-width: 100%;
@@ -130,5 +131,6 @@ button {
   
   /* Add a color to the active/current link */
   
-     
-  
+   html {
+    min-height: 100%
+   }

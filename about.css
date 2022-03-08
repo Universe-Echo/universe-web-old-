@@ -2,7 +2,7 @@
 
 
 body {
-  background: linear-gradient(to bottom left, #33ccff -50%, #ff99cc 150%);
+  background: linear-gradient(to bottom left, #33ccff -50%, #ff99cc 150%) fixed;
   Height: 1100px;
 }
 .topnav {
